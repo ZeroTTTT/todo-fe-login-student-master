@@ -9,8 +9,8 @@ const LoginPage = () => {
   const [ password, setPassword ] = useState('');
   const [ error, setError] = useState('');
   const [ user, setUser] = useState('');
-  const navigate = useNavigate();
-
+  const navigate = useNavigate(); 
+ 
   const handleLogin = async (event)=> {
     event.preventDefault()
     try{
